@@ -9,6 +9,7 @@ $nota4 = $_POST['nota4'];
 $soma = ($nota1 + $nota2 + $nota3 + $nota4);
 $media = ($soma) / 4;
 if ($media >= 6){
+    //Preferi utilizar um alert para gerar o resultado de uma forma mais explicita.
     echo "<script>alert('Aprovado com $media pontos');</script>";
 } else { 
     echo "<script>alert('Reprovado com apenas $media pontos');</script>";
