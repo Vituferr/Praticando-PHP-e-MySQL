@@ -1,0 +1,14 @@
+body{
+background-color: rgb(111, 111, 111);
+color: white;
+margin-left: 5cm;
+margin-top: 5cm;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+input{
+    border-radius: 7px;
+}
+label{
+    font-size: 20px;
+}
